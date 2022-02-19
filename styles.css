@@ -1,18 +1,34 @@
-header {
-  background-color: #e07a5f;
-  color: #3d405b;
+* {
+  transition: all 250ms ease;
 }
 
-#hdr1 {
-  padding-bottom: 25px;
+body {
+  background-color: #f0f5fa;
+}
+
+header {
+  height: 100px;
+  background-color: #ced4da;
+  color: #495057;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 8px;
+  align-items: center;
 }
 
 header a {
-  color: #3d405b;
+  margin: 180px;
   text-decoration: none;
+  font-size: 30px;
+  background-color: #dee2e6;
+  border-radius: 7px;
+  color: #6c757d;
+  padding: 4px 10px;
+  display: inline-block;
 }
 
-.nbar {
-  display: flex;
-  justify-content: right;
+a:hover {
+  background-color: #e6eaee;
+  transform: translate(-8px, -8px);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
 }
