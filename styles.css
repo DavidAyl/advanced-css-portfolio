@@ -1,0 +1,18 @@
+header {
+  background-color: #e07a5f;
+  color: #3d405b;
+}
+
+#hdr1 {
+  padding-bottom: 25px;
+}
+
+header a {
+  color: #3d405b;
+  text-decoration: none;
+}
+
+.nbar {
+  display: flex;
+  justify-content: right;
+}
