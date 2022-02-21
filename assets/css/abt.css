@@ -1,5 +1,31 @@
 #hdr1 {
-  margin: 50px 690px 0px;
+  /* margin: 50px 720px 0px; */
   border-radius: 15px;
   padding: 10px;
+}
+
+#hr1 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.par {
+  margin: 25px auto;
+  width: 40%;
+}
+
+#ude {
+  text-decoration: none;
+  color: #495057;
+}
+
+#me {
+  width: 30%;
+}
+
+#pic {
+  display: flex;
+  justify-content: center;
 }
