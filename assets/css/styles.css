@@ -86,6 +86,27 @@ h1 {
   display: flex;
 }
 
+#frspic {
+  display: flex;
+}
+
+.btnimg {
+  background-color: #ced4da;
+  margin: 5px auto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  background-color: #dee2e6;
+  border-radius: 7px;
+  color: #6c757d;
+  padding: 4px 10px; }
+
+  .btnimg:hover {
+     background-color: #e6eaee;
+  transform: translate(-8px, -8px);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+  }
+
 /* @media screen and (max-width: 1295px) {
   a {
     transform: scale(0.65);
