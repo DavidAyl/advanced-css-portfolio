@@ -2,9 +2,12 @@
   transition: all 250ms ease;
 }
 
-
 body {
   background-color: #f1f5fa;
+}
+
+main {
+  margin-bottom: 50px;
 }
 
 nav {
@@ -15,13 +18,14 @@ nav {
 
 #hding {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-   background-color: #ced4da;
-   width: 20%;
-   border-radius: 15px;
-   margin: 25px auto;
+  background-color: #ced4da;
+  width: 45%;
+  border-radius: 15px;
+  margin: 25px auto;
 }
 
 header {
@@ -35,9 +39,8 @@ header {
   z-index: 100;
   flex-wrap: wrap;
   justify-content: space-evenly;
-width: 100%;
+  width: 100%;
 }
-
 
 header a {
   /* margin: 0px 160px; */
@@ -58,7 +61,6 @@ a:hover {
 }
 
 h1 {
- 
   height: 40px;
   text-align: center;
   font-size: 30px;
@@ -66,7 +68,6 @@ h1 {
 }
 
 #webdev {
- 
   text-align: center;
 }
 
@@ -99,24 +100,63 @@ h1 {
   background-color: #dee2e6;
   border-radius: 7px;
   color: #6c757d;
-  padding: 4px 10px; }
-
-  .btnimg:hover {
-     background-color: #e6eaee;
-  transform: translate(-8px, -8px);
-  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
-  }
-
-/* @media screen and (max-width: 1295px) {
-  a {
-    transform: scale(0.65);
-    flex-direction: row;
-  }
+  padding: 4px 10px;
 }
 
-@media screen and (max-width: 768px) {
-  a {
-    transform: scale(0.55);
-    flex-direction: row;
-  }
+.btnimg:hover {
+  background-color: #e6eaee;
+  transform: translate(-8px, -8px);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+#flim {
+  width: 15%;
+  margin: 5px 25%;
+}
+
+.btnimgs {
+  background-color: #ced4da;
+  margin: 5px 29%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  background-color: #dee2e6;
+  border-radius: 7px;
+  color: #6c757d;
+  padding: 4px 10px;
+}
+
+.btnimgs:hover {
+  background-color: #e6eaee;
+  transform: translate(-8px, -8px);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+#seopg {
+  width: 15%;
+  margin: 5px;
+}
+
+#btnimg {
+  background-color: #ced4da;
+  margin: 5px 7%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  background-color: #dee2e6;
+  border-radius: 7px;
+  color: #6c757d;
+  padding: 4px 10px;
+}
+
+footer {
+  background-color: #343a40;
+  color: #dee2e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  height: 35px;
 }
