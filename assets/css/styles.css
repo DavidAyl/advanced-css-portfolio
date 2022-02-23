@@ -85,10 +85,14 @@ h1 {
 
 .divforim {
   display: flex;
+  justify-content: center;
+  width: auto;
 }
 
-#frspic {
+.frspic {
   display: flex;
+  flex-direction: column;
+  width: auto;
 }
 
 .btnimg {
@@ -110,7 +114,6 @@ h1 {
 }
 
 #flim {
-  width: 15%;
   margin: 5px 25%;
 }
 
@@ -133,7 +136,6 @@ h1 {
 }
 
 #seopg {
-  width: 15%;
   margin: 5px;
 }
 
