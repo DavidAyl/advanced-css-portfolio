@@ -1,4 +1,16 @@
-#seopg {
-  width: 15%;
-  margin: 5px;
+#slol {
+  display: block;
+  width: 33%;
+  margin: 5px auto;
+}
+
+#flpg {
+  display: block;
+  width: 33%;
+  margin: 5px 15%;
+}
+
+#jsim {
+  width: 33%;
+  display: block;
 }
