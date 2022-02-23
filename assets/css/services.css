@@ -1,0 +1,13 @@
+p {
+  text-align: center;
+  display: inline-block;
+  margin: 20px auto;
+  width: 33%;
+}
+h2 {
+  font-size: 30px;
+  width: 33%;
+  margin: 10px auto;
+  text-align: center;
+  display: inline-block;
+}
