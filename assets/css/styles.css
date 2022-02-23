@@ -114,7 +114,8 @@ h1 {
 }
 
 #flim {
-  margin: 5px 25%;
+  margin: 5px auto;
+  width: 100%;
 }
 
 .btnimgs {
@@ -127,6 +128,7 @@ h1 {
   border-radius: 7px;
   color: #6c757d;
   padding: 4px 10px;
+  width: 50%;
 }
 
 .btnimgs:hover {
