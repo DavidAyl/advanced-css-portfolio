@@ -1,0 +1,72 @@
+#cntlink {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cntlinksdiv {
+    background-color: #ced4da;
+    border-radius: 10px;
+    margin: 25px auto;
+    text-align: center;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #495057;
+}
+
+#cntpics {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#ghbpic {
+    width: 30%;
+}
+
+#lnkpic {
+width: 30%;
+}
+
+#empic {
+    width: 30%;
+}
+
+#qte {
+    font-size: 24px;
+    text-align: center;
+    background-color: #ced4da;
+    width: 45%;
+    border-radius: 15px;
+    padding: 15px auto;
+    margin: 25px auto;
+    color: #495057;
+}
+
+#frm {
+    display: flex;
+    justify-content: center;
+}
+
+input[type=text] {
+    background-color: #ced4da;
+    border-radius: 10px;
+    padding: 5px 5px;
+    color:#495057;
+    text-align: center;
+    margin: 10px;
+}
+
+label {
+    color: #495057;
+    font-size: 20px;
+}
+
+button {
+    font-size: 24px;
+    background-color: #ced4da;
+    border-radius: 10px;
+    padding: 5px 5px;
+    color:#495057;
+    text-align: center;
+    margin: 0 37%
+}
