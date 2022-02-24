@@ -1,13 +1,28 @@
+.svc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 p {
-  text-align: center;
-  display: inline-block;
-  margin: 20px auto;
-  width: 33%;
+  flex: 0 0 33%
 }
-h2 {
-  font-size: 30px;
-  width: 33%;
-  margin: 10px auto;
+
+
+#intro {
   text-align: center;
-  display: inline-block;
+  width: 60%;
+  margin: 5px auto;
 }
+
+.sbhd {
+font-size: 24px;
+background-color: #ced4da;
+padding: 3px 5px;
+border-radius: 10px;
+color: #495057;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+  }
