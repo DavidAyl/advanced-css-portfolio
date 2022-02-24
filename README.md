@@ -69,22 +69,22 @@ https://github.com/DavidAyl
 
 ## Visuals
 
-Index Page
+## Index Page
 
 ![index page](./assets/images/homepage.png)
 
-About Page
+## About Page
 
 ![about page](./assets/images/aboutpage.png)
 
-Gallery Page
+## Gallery Page
 
 ![Gallery page](./assets/images/gallerypage.png)
 
-Service Page
+## Service Page
 
 ![Service page](./assets/images/servicepage.png)
 
-Contact Page
+## Contact Page
 
 ![Contact page](./assets/images/contactpage.png)
